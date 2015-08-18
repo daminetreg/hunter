@@ -10,9 +10,9 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME lib-cpp-pre
-    VERSION "1.2.0"
-    URL "https://github.com/daminetreg/lib-cpp-pre/archive/v1.2.0.tar.gz" 
-    SHA1 9e3ab0289fa1250916f4a47fae862ed4f5063cba 
+    VERSION "1.2.2"
+    URL "https://github.com/daminetreg/lib-cpp-pre/archive/v1.2.2.tar.gz" 
+    SHA1 6733a0abd9f74bd67e4ef521e7677ad9437cdba1 
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
