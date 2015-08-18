@@ -6,7 +6,6 @@ include(hunter_status_debug)
 
 hunter_status_debug("Boost find config")
 
-set(Boost_USE_STATIC_LIBS ON)
 set(Boost_NO_BOOST_CMAKE YES)
 
 find_package(Boost MODULE REQUIRED ${Boost_FIND_COMPONENTS})

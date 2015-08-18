@@ -199,7 +199,7 @@ if(have_osx_sysroot)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -isysroot @CMAKE_OSX_SYSROOT@")
 endif()
 
-set(link_opts link=static)
+set(link_opts link=shared,static)
 
 set(toolset_full_name ${toolset_name})
 string(COMPARE NOTEQUAL "${toolset_version}" "" has_toolset_version)
