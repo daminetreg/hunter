@@ -149,6 +149,11 @@ env:
     - PROJECT_DIR=examples/spdlog TOOLCHAIN=ios-nocodesign
     - PROJECT_DIR=examples/spdlog TOOLCHAIN=analyze
     #
+    - PROJECT_DIR=examples/Async++ TOOLCHAIN=default
+    - PROJECT_DIR=examples/Async++ TOOLCHAIN=libcxx
+    - PROJECT_DIR=examples/Async++ TOOLCHAIN=xcode
+    - PROJECT_DIR=examples/Async++ TOOLCHAIN=gcc
+    #
     - PROJECT_DIR=examples/Eigen TOOLCHAIN=default
     #
     - PROJECT_DIR=examples/ippicv TOOLCHAIN=default
@@ -162,6 +167,7 @@ env:
     - PROJECT_DIR=examples/SQLite3 TOOLCHAIN=default
     - PROJECT_DIR=examples/odb-compiler TOOLCHAIN=default
     - PROJECT_DIR=examples/odb-sqlite TOOLCHAIN=default
+    - PROJECT_DIR=examples/QtCMakeExtra TOOLCHAIN=default
 
     ### TESTS --
     - PROJECT_DIR=tests/simple TOOLCHAIN=default
@@ -171,10 +177,12 @@ env:
     - PROJECT_DIR=tests/issue/109/unit TOOLCHAIN=default
     - PROJECT_DIR=tests/hunter_create_args_file TOOLCHAIN=default
     - PROJECT_DIR=tests/hunter_create_dependency_entry TOOLCHAIN=default
+    - PROJECT_DIR=tests/hunter_generate_qt_info TOOLCHAIN=default
     - PROJECT_DIR=tests/hunter_get_dependency_list TOOLCHAIN=default
     - PROJECT_DIR=tests/hunter_pack_directory TOOLCHAIN=default
     - PROJECT_DIR=tests/hunter_process_dependency_node TOOLCHAIN=default
     - PROJECT_DIR=tests/hunter_register_dependency TOOLCHAIN=default
+    - PROJECT_DIR=tests/hunter_setup_msvc_arch TOOLCHAIN=default
     - PROJECT_DIR=tests/hunter_unpack_directory TOOLCHAIN=default
     - PROJECT_DIR=tests/autotools-merge-lipo TOOLCHAIN=default
     ### -- end
