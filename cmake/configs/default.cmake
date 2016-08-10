@@ -81,7 +81,7 @@ hunter_config(LAPACK VERSION 3.7.1)
 hunter_config(LLVM VERSION 4.0.1-p0) # Clang
 hunter_config(LLVMCompilerRT VERSION 4.0.1-patched) # Clang
 hunter_config(Leathers VERSION 0.1.6)
-hunter_config(lib-cpp-pre VERSION 1.3.6)
+hunter_config(lib-cpp-pre VERSION 1.3.7)
 hunter_config(Libcxx VERSION 3.6.2) # Clang
 hunter_config(Libcxxabi VERSION 3.6.2) # Clang
 hunter_config(Libevent VERSION 2.1.8)
