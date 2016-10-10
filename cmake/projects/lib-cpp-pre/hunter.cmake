@@ -65,5 +65,12 @@ hunter_add_version(
     SHA1 fac0e14d6111118f230cff85e23c72fccb3b07cd 
 )
 
+hunter_add_version(
+    PACKAGE_NAME lib-cpp-pre
+    VERSION "1.4.1"
+    URL "https://github.com/daminetreg/lib-cpp-pre/archive/v1.4.1.tar.gz" 
+    SHA1 d7dd80f6c9b939b39914194a0d6682399a793950 
+)
+
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_download(PACKAGE_NAME lib-cpp-pre)
