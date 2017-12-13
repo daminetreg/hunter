@@ -89,8 +89,15 @@ hunter_add_version(
 hunter_add_version(
     PACKAGE_NAME lib-cpp-pre
     VERSION "1.4.4"
-    URL "https://github.com/daminetreg/lib-cpp-pre/archive/feature/updating-deps.tar.gz" 
+    URL "https://github.com/daminetreg/lib-cpp-pre/archive/v1.4.4.tar.gz" 
     SHA1 6e87e7b8eaecb5e48509c84e1782e0377b4eb87c 
+)
+
+hunter_add_version(
+    PACKAGE_NAME lib-cpp-pre
+    VERSION "1.4.5"
+    URL "https://github.com/daminetreg/lib-cpp-pre/archive/feature/sam3-and-rutouch-releases.tar.gz" 
+    SHA1 fc7c86c3bf6dada368bc6f9e03f2ca8bb65e4851 
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
